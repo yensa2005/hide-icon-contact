@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    outline: none;
+    border: none;
+}
+
+body {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    min-height: 100vh;
+    background-color: #333;
+    font-size: 14px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+}
+
+.icon-bar {
+    width: 90px;
+    border-radius: 20px;
+    background-color: #a51e24;
+}
+
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+}
+
+.icon-bar a:hover {
+    border-radius: 20px;
+    background-color: #a51e24;
+    border: 2px solid #fff;
+}
