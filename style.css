@@ -38,3 +38,7 @@ body {
     background-color: #a51e24;
     border: 2px solid #fff;
 }
+
+#myDIV {
+    display: none;
+}
