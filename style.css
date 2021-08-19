@@ -18,6 +18,12 @@ body {
     padding-right: 30px;
 }
 
+#myDIV {
+    height: 0px;
+    overflow: hidden;
+    transition: all ease 0.25s;
+}
+
 .icon-bar {
     width: 70px;
     border-radius: 22px;
@@ -41,6 +47,6 @@ body {
     border: 2px solid #fff;
 }
 
-.hide {
-    display: none;
+#myDIV.show {
+    height: 228px;
 }
